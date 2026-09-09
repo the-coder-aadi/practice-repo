@@ -20,7 +20,7 @@ session:false
         secure:true,
         maxAge:3 * 24 * 60 * 60 * 1000
     })
-    res.redirect("http://localhost:5173/home")
+   res.redirect("https://practice-repo-1-2sxn.onrender.com/home")
 })
 
 export default authrouter

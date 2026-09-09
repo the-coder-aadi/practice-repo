@@ -23,7 +23,7 @@ user.resetTokenExpiry = resetTokenExpiry
 
 await user.save()
 
-    const resetLink = `http://localhost:5173/reset-password/${resettoken}`;
+    const resetLink = `https://practice-repo-1-2sxn.onrender.com/reset-password/${resettoken}`;
 
     await transporter.sendMail({
           from: process.env.gmail,
