@@ -16,7 +16,7 @@ session:false
     )
     res.cookie("Refresh_Token", refreshtoken,{
         httpOnly:true,
-        sameSite:"strict",
+        sameSite:"none",
         secure:true,
         maxAge:3 * 24 * 60 * 60 * 1000
     })
