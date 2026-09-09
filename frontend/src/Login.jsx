@@ -15,7 +15,7 @@ formdata.append("email", email)
 formdata.append("password", password)
 formdata.append("img", file)
     try {
-      const response = await fetch("http://localhost:9000/login", {
+      const response = await fetch("https://practice-repo-xbt2.onrender.com/login", {
         method: "POST",
     // headers:{
     //   "Content-Type":"application/json"
@@ -84,7 +84,7 @@ console.log("login complete go to home...");
          <p className="para" onClick={()=> navigate("/register")}>Account Create</p>
           <button
   onClick={() => {
-    window.location.href = "http://localhost:9000/auth/google";
+window.location.href = "https://practice-repo-xbt2.onrender.com/auth/google";
   }}
 >
   Continue with Google

@@ -5,7 +5,7 @@ function ForgotPass() {
 
     async function forgotpassword() {
         try {
-            const api = await fetch("http://localhost:9000/forgotpass",{
+            const api = await fetch("https://practice-repo-xbt2.onrender.com/forgotpass",{
                 method:"POST",
                 headers:{
                     "Content-Type": "application/json"
