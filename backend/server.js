@@ -18,6 +18,7 @@ import "./Routes/middleware/passport.js"
 import Resetpassrouter from "./Routes/Resetpassword.js"
 import authrouter from "./Routes/oauth.js"
 
+
 const server = express()
 server.use(express.json())
 server.use(cors({
